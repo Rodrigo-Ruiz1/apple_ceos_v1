@@ -1,0 +1,6 @@
+<h1>Ceo List</h1>
+<ul>
+    ${data.map(ceo => 
+        `<li><a href="./ceos/${ceo.slug}">${ceo.name}</a></li>`    
+    ).join('')}
+</ul>
